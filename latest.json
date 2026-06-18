@@ -1,8 +1,8 @@
 {
-  "versionCode": 13,
-  "versionName": "1.0.13",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.13/Stovyn-v1.0.13.apk",
-  "sha256": "0f284d5e8e301bea6aed91b0280d3dafb8e86e59c95a041097df5b62ed99cb57",
+  "versionCode": 14,
+  "versionName": "1.0.14",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.14/Stovyn-v1.0.14.apk",
+  "sha256": "3d62b0f35086fcb29f8c4dab6d1077127912ee145bf598e683607e55b53e2d62",
   "mandatory": false,
-  "notes": "First OTA-enabled build — the app now self-updates from this channel. Includes the Pro 'Register your product' flow and one-license-per-device guard."
+  "notes": "Test release to verify the OTA self-update loop end-to-end. No functional changes from 1.0.13."
 }
