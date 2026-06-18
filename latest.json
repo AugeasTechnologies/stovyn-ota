@@ -1,8 +1,8 @@
 {
-  "versionCode": 21,
-  "versionName": "1.0.21",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.21/Stovyn-v1.0.21.apk",
-  "sha256": "de0f6a39cf47e245c3768c5a0e320c25b4d9b0489059a40499e622c38906b9bb",
+  "versionCode": 22,
+  "versionName": "1.0.22",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.22/Stovyn-v1.0.22.apk",
+  "sha256": "adc325ad81c6c7f1f6a384c991cc515bb3df1d1c36e3d27ed5122b86f5e9ebe6",
   "mandatory": false,
-  "notes": "Fixes the Bluetooth firmware update that failed with 'aborted' (a stale-session clear was being misread as a fatal error — updates now start cleanly, recover dropped packets, and handle a busy device). Update-over-Bluetooth now shows the new version + release notes as bullet points before you start, and the Bluetooth icon was removed from the button. Camera preview shows a green target border for aiming. All pop-ups now blur the background and are readable on both dark and light themes."
+  "notes": "Fix the 'Try to reconnect' button: it only ever tried Wi-Fi/LAN, so for a Bluetooth-only Stovyn it did nothing. It now reconnects over Bluetooth first (re-scan + connect), then falls back to Wi-Fi, and shows a 'Reconnecting…' spinner so the tap has visible feedback."
 }
