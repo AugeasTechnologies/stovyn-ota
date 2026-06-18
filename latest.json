@@ -1,8 +1,8 @@
 {
-  "versionCode": 15,
-  "versionName": "1.0.15",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.15/Stovyn-v1.0.15.apk",
-  "sha256": "be7c4eddbe0f223cbafd6641e717825208279d5e6bbec6f76ac61d1dd88585eb",
+  "versionCode": 16,
+  "versionName": "1.0.16",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.16/Stovyn-v1.0.16.apk",
+  "sha256": "460fb559d6d743bf84c360c52fa8d689c3300e85612ef1defa97301f6207e2bf",
   "mandatory": false,
-  "notes": "Fix dashboard flashing on unstable Wi-Fi: the home status card now holds a single steady state instead of strobing between online and offline. When the connection genuinely can't hold (even over Bluetooth), it shows Offline calmly rather than flickering. Fire alerts still appear instantly."
+  "notes": "Tour accuracy fixes: the Alerts tab tip no longer claims a long-press to snooze/dismiss gesture that doesn't exist (the alerts list is a read-only history you filter, mark real/false, and clear), and the Trusted Contacts tip no longer claims a 5-person cap the app never enforced."
 }
