@@ -1,8 +1,8 @@
 {
-  "versionCode": 20,
-  "versionName": "1.0.20",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.20/Stovyn-v1.0.20.apk",
-  "sha256": "2392a51118a6aeab290708cf957a11df6f5093e60c95632499bb688416022c03",
+  "versionCode": 21,
+  "versionName": "1.0.21",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.21/Stovyn-v1.0.21.apk",
+  "sha256": "de0f6a39cf47e245c3768c5a0e320c25b4d9b0489059a40499e622c38906b9bb",
   "mandatory": false,
-  "notes": "UI fixes: the 'Tap to retry' button on the camera/Bluetooth-dropped overlays was white-on-white in dark mode — now a clearly-visible orange button. These overlays (and the update popup) now have a frosted/blurred backdrop so they stand out. And the Camera tab now shows the same 'keep the stove inside this box' alignment guide the Thermal tab already had."
+  "notes": "Fixes the Bluetooth firmware update that failed with 'aborted' (a stale-session clear was being misread as a fatal error — updates now start cleanly, recover dropped packets, and handle a busy device). Update-over-Bluetooth now shows the new version + release notes as bullet points before you start, and the Bluetooth icon was removed from the button. Camera preview shows a green target border for aiming. All pop-ups now blur the background and are readable on both dark and light themes."
 }
