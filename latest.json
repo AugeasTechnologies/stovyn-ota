@@ -1,8 +1,8 @@
 {
-  "versionCode": 18,
-  "versionName": "1.0.18",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.18/Stovyn-v1.0.18.apk",
-  "sha256": "f8b7da01b4ab955a76fabf14ec3b130fc3f6147e3eaa21079469830fc79d9932",
+  "versionCode": 19,
+  "versionName": "1.0.19",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.19/Stovyn-v1.0.19.apk",
+  "sha256": "4bf78e66f04a672dcca27693b5c14a45c3900c680c4ed23139366339f6003269",
   "mandatory": false,
-  "notes": "Firmware-update fix: the update check now asks the cloud for the hardware revision your device actually is (derived from its firmware version, e.g. s3) instead of a hardcoded value — previously S3 devices never found their published firmware. The Bluetooth update path reads the device's real version over BLE to target the right channel."
+  "notes": "Camera/orientation preview honesty: once Stovyn is connected over Bluetooth the screen no longer says 'Connecting Bluetooth…' — it shows 'Connected — waiting for the camera…', and if the device is asleep and sends no image within a few seconds it tells you to wake it (wave your hand / warm it up) and offers Retry, instead of spinning forever."
 }
