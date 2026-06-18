@@ -1,8 +1,8 @@
 {
-  "versionCode": 17,
-  "versionName": "1.0.17",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.17/Stovyn-v1.0.17.apk",
-  "sha256": "a99a52249d65a2b69c98e97396493872a8822bfcbcd4772956d9043ee1fe8eda",
+  "versionCode": 18,
+  "versionName": "1.0.18",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.18/Stovyn-v1.0.18.apk",
+  "sha256": "f8b7da01b4ab955a76fabf14ec3b130fc3f6147e3eaa21079469830fc79d9932",
   "mandatory": false,
-  "notes": "Firmware updates over Bluetooth (app side). When your Stovyn is reachable over Bluetooth, the update screen now offers 'Update over Bluetooth' — your phone downloads the signed firmware, verifies it, and streams it to the device over BLE with no Wi-Fi needed. The device keeps its A/B safety + auto-rollback. Requires the matching firmware build flashed on the device."
+  "notes": "Firmware-update fix: the update check now asks the cloud for the hardware revision your device actually is (derived from its firmware version, e.g. s3) instead of a hardcoded value — previously S3 devices never found their published firmware. The Bluetooth update path reads the device's real version over BLE to target the right channel."
 }
