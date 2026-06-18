@@ -1,8 +1,8 @@
 {
-  "versionCode": 19,
-  "versionName": "1.0.19",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.19/Stovyn-v1.0.19.apk",
-  "sha256": "4bf78e66f04a672dcca27693b5c14a45c3900c680c4ed23139366339f6003269",
+  "versionCode": 20,
+  "versionName": "1.0.20",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.20/Stovyn-v1.0.20.apk",
+  "sha256": "2392a51118a6aeab290708cf957a11df6f5093e60c95632499bb688416022c03",
   "mandatory": false,
-  "notes": "Camera/orientation preview honesty: once Stovyn is connected over Bluetooth the screen no longer says 'Connecting Bluetooth…' — it shows 'Connected — waiting for the camera…', and if the device is asleep and sends no image within a few seconds it tells you to wake it (wave your hand / warm it up) and offers Retry, instead of spinning forever."
+  "notes": "UI fixes: the 'Tap to retry' button on the camera/Bluetooth-dropped overlays was white-on-white in dark mode — now a clearly-visible orange button. These overlays (and the update popup) now have a frosted/blurred backdrop so they stand out. And the Camera tab now shows the same 'keep the stove inside this box' alignment guide the Thermal tab already had."
 }
