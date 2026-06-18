@@ -1,8 +1,8 @@
 {
-  "versionCode": 16,
-  "versionName": "1.0.16",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.16/Stovyn-v1.0.16.apk",
-  "sha256": "460fb559d6d743bf84c360c52fa8d689c3300e85612ef1defa97301f6207e2bf",
+  "versionCode": 17,
+  "versionName": "1.0.17",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.17/Stovyn-v1.0.17.apk",
+  "sha256": "a99a52249d65a2b69c98e97396493872a8822bfcbcd4772956d9043ee1fe8eda",
   "mandatory": false,
-  "notes": "Tour accuracy fixes: the Alerts tab tip no longer claims a long-press to snooze/dismiss gesture that doesn't exist (the alerts list is a read-only history you filter, mark real/false, and clear), and the Trusted Contacts tip no longer claims a 5-person cap the app never enforced."
+  "notes": "Firmware updates over Bluetooth (app side). When your Stovyn is reachable over Bluetooth, the update screen now offers 'Update over Bluetooth' — your phone downloads the signed firmware, verifies it, and streams it to the device over BLE with no Wi-Fi needed. The device keeps its A/B safety + auto-rollback. Requires the matching firmware build flashed on the device."
 }
