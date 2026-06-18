@@ -1,8 +1,8 @@
 {
-  "versionCode": 14,
-  "versionName": "1.0.14",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.14/Stovyn-v1.0.14.apk",
-  "sha256": "3d62b0f35086fcb29f8c4dab6d1077127912ee145bf598e683607e55b53e2d62",
+  "versionCode": 15,
+  "versionName": "1.0.15",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.15/Stovyn-v1.0.15.apk",
+  "sha256": "be7c4eddbe0f223cbafd6641e717825208279d5e6bbec6f76ac61d1dd88585eb",
   "mandatory": false,
-  "notes": "Test release to verify the OTA self-update loop end-to-end. No functional changes from 1.0.13."
+  "notes": "Fix dashboard flashing on unstable Wi-Fi: the home status card now holds a single steady state instead of strobing between online and offline. When the connection genuinely can't hold (even over Bluetooth), it shows Offline calmly rather than flickering. Fire alerts still appear instantly."
 }
