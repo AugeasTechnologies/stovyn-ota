@@ -1,8 +1,8 @@
 {
-  "versionCode": 23,
-  "versionName": "1.0.23",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.23/Stovyn-v1.0.23.apk",
-  "sha256": "0b9c35ce3dc9361ba6e66216e9c1957352c75f38f4338c3a73d90650c705719c",
+  "versionCode": 24,
+  "versionName": "1.0.24",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.24/Stovyn-v1.0.24.apk",
+  "sha256": "51cb8ca52b370fd7ebdb4bcf7b7032c9fa5607415e86eb9212064446763985d2",
   "mandatory": false,
-  "notes": "Fix the device getting stuck on 'waiting for live data' / dropping right after it reconnects over Bluetooth. The app's chip-reset detector was force-disconnecting the BLE link whenever the device's boot counter increased (normal after it sleeps/wakes while disconnected) — but since the status read had just succeeded, the link was healthy, and the forced disconnect made the device sleep, wake, and reconnect in an endless loop. Now it keeps the working link and applies the live data instead of dropping it."
+  "notes": "Hardening from a self-review of this session's code: (1) the Bluetooth firmware transfer can't hang if a progress callback throws; (2) 'Try to reconnect' no longer marks Bluetooth unreachable when the first status read is briefly missed right after connecting; (3) the 'Reconnecting…' spinner clears the instant the device comes back (and now waits long enough for the Wi-Fi fallback) instead of vanishing after 12s."
 }
