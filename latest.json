@@ -1,8 +1,8 @@
 {
-  "versionCode": 24,
-  "versionName": "1.0.24",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.24/Stovyn-v1.0.24.apk",
-  "sha256": "51cb8ca52b370fd7ebdb4bcf7b7032c9fa5607415e86eb9212064446763985d2",
+  "versionCode": 25,
+  "versionName": "1.0.25",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.25/Stovyn-v1.0.25.apk",
+  "sha256": "ff9b5e226dac179229ddd30fd8db5e921b7f09ce71196d1b16f885a53a6ccc3d",
   "mandatory": false,
-  "notes": "Hardening from a self-review of this session's code: (1) the Bluetooth firmware transfer can't hang if a progress callback throws; (2) 'Try to reconnect' no longer marks Bluetooth unreachable when the first status read is briefly missed right after connecting; (3) the 'Reconnecting…' spinner clears the instant the device comes back (and now waits long enough for the Wi-Fi fallback) instead of vanishing after 12s."
+  "notes": "Your Stovyn now updates its own firmware over Bluetooth. When your device is connected, the app offers firmware s3-phase1-0.6.5 and installs it wirelessly — no cables. Includes earlier reliability fixes."
 }
