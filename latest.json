@@ -1,8 +1,8 @@
 {
-  "versionCode": 30,
-  "versionName": "1.0.30",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.30/Stovyn-v1.0.30.apk",
-  "sha256": "972f58e02c426f80ff383ab534c80965aa1fac550a7fb6bfea57a70d02aadad1",
+  "versionCode": 31,
+  "versionName": "1.0.31",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.31/Stovyn-v1.0.31.apk",
+  "sha256": "6fb746be41a900b811255f79df42fc2f66e0eec56edd4d31879fea58dfb7e4c4",
   "mandatory": false,
-  "notes": "Firmware update now authorizes correctly even when your phone is paired to a different Stovyn unit (it falls back to service mode automatically), so the Bluetooth update no longer fails at 0% with 'unauthorized'."
+  "notes": "Bundles device firmware s3-phase1-0.6.8 with the Bluetooth-update authorization fix, so the over-the-air firmware update completes end to end."
 }
