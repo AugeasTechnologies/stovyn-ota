@@ -1,8 +1,8 @@
 {
-  "versionCode": 29,
-  "versionName": "1.0.29",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.29/Stovyn-v1.0.29.apk",
-  "sha256": "bfd3c4fe297cd2ebd9bed5bd1dab89376f8e13c1f09cdd81e42deb5004693cbf",
+  "versionCode": 30,
+  "versionName": "1.0.30",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.30/Stovyn-v1.0.30.apk",
+  "sha256": "972f58e02c426f80ff383ab534c80965aa1fac550a7fb6bfea57a70d02aadad1",
   "mandatory": false,
-  "notes": "Seamless Bluetooth connection: a calm 'Connecting…' on open instead of flashing Offline/Sleeping, no more online↔sleeping flicker, and 'Try to reconnect' no longer blinks. Honest Wi-Fi status. Includes the reliable firmware-update fixes."
+  "notes": "Firmware update now authorizes correctly even when your phone is paired to a different Stovyn unit (it falls back to service mode automatically), so the Bluetooth update no longer fails at 0% with 'unauthorized'."
 }
