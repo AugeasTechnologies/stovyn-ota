@@ -1,8 +1,8 @@
 {
-  "versionCode": 28,
-  "versionName": "1.0.28",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.28/Stovyn-v1.0.28.apk",
-  "sha256": "fbbb9e4ee621e00f31845d413ba9ec442d31cb23424dcd2ff5401abcd4389bcc",
+  "versionCode": 29,
+  "versionName": "1.0.29",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.29/Stovyn-v1.0.29.apk",
+  "sha256": "bfd3c4fe297cd2ebd9bed5bd1dab89376f8e13c1f09cdd81e42deb5004693cbf",
   "mandatory": false,
-  "notes": "Honest Wi-Fi status: a Bluetooth-only Stovyn no longer shows Wi-Fi as connected when its Wi-Fi is off. Update pop-up now has a one-tap 'Copy diagnostics' button (paste it to support if an update fails) and a properly blurred background. Includes the reliable Bluetooth-update fixes."
+  "notes": "Seamless Bluetooth connection: a calm 'Connecting…' on open instead of flashing Offline/Sleeping, no more online↔sleeping flicker, and 'Try to reconnect' no longer blinks. Honest Wi-Fi status. Includes the reliable firmware-update fixes."
 }
