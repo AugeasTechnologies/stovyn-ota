@@ -1,8 +1,8 @@
 {
-  "versionCode": 36,
-  "versionName": "1.0.36",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.36/Stovyn-v1.0.36.apk",
-  "sha256": "cad4b016eae997141c86942dffb4831119df26c0420dc61b12786d4d16ac74a6",
+  "versionCode": 37,
+  "versionName": "1.0.37",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.37/Stovyn-v1.0.37.apk",
+  "sha256": "4d9a0280215665e46449e0dd4f5f03d8028fc34ea4be45a5cf437235a13b9676",
   "mandatory": false,
-  "notes": "Maintenance: internal push-registration cleanup (shared Firebase config) so notification setup can't drift. No change to alerts or features since 1.0.35."
+  "notes": "Privacy: signing out now clears your stove list, so a different account on the same phone can't see your devices. Reliability: fixed a session-refresh bug that could silently stop push alerts after the app had been open a while."
 }
