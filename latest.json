@@ -1,8 +1,8 @@
 {
-  "versionCode": 32,
-  "versionName": "1.0.32",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.32/Stovyn-v1.0.32.apk",
-  "sha256": "135ad0ab4ca5ba4a5168ed95770e26421e9d93b5e1810d5d452e9305204295e0",
+  "versionCode": 33,
+  "versionName": "1.0.33",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.33/Stovyn-v1.0.33.apk",
+  "sha256": "803a8af2f375dcd07f01e4688ae4754eb705b3334e33ae99a87be99d57791a35",
   "mandatory": false,
-  "notes": "Bluetooth firmware update confirmed working end-to-end; removed the temporary on-screen diagnostics from the Update dialog."
+  "notes": "Push reliability: enables the device state-change push path on Android (was disabled by a stale Firebase flag), so widget/state updates and cloud notifications register consistently."
 }
