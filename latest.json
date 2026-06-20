@@ -1,8 +1,8 @@
 {
-  "versionCode": 35,
-  "versionName": "1.0.35",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.35/Stovyn-v1.0.35.apk",
-  "sha256": "31f59046464c6b62d9588f387fd4ce96d8cb04dd0d2b5fa560e3b51f9a5f763b",
+  "versionCode": 36,
+  "versionName": "1.0.36",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.36/Stovyn-v1.0.36.apk",
+  "sha256": "cad4b016eae997141c86942dffb4831119df26c0420dc61b12786d4d16ac74a6",
   "mandatory": false,
-  "notes": "Safety-audit fixes: cooking now shows on Home for Bluetooth-only devices; exiting the sales demo no longer leaves a false alert on screen; emergency texts to trusted contacts now name your stove's actual room/name instead of always 'Kitchen Stove'."
+  "notes": "Maintenance: internal push-registration cleanup (shared Firebase config) so notification setup can't drift. No change to alerts or features since 1.0.35."
 }
