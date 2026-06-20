@@ -1,8 +1,8 @@
 {
-  "versionCode": 31,
-  "versionName": "1.0.31",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.31/Stovyn-v1.0.31.apk",
-  "sha256": "6fb746be41a900b811255f79df42fc2f66e0eec56edd4d31879fea58dfb7e4c4",
+  "versionCode": 32,
+  "versionName": "1.0.32",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.32/Stovyn-v1.0.32.apk",
+  "sha256": "135ad0ab4ca5ba4a5168ed95770e26421e9d93b5e1810d5d452e9305204295e0",
   "mandatory": false,
-  "notes": "Bundles device firmware s3-phase1-0.6.8 with the Bluetooth-update authorization fix, so the over-the-air firmware update completes end to end."
+  "notes": "Bluetooth firmware update confirmed working end-to-end; removed the temporary on-screen diagnostics from the Update dialog."
 }
