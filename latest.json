@@ -1,8 +1,8 @@
 {
-  "versionCode": 33,
-  "versionName": "1.0.33",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.33/Stovyn-v1.0.33.apk",
-  "sha256": "803a8af2f375dcd07f01e4688ae4754eb705b3334e33ae99a87be99d57791a35",
+  "versionCode": 34,
+  "versionName": "1.0.34",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.34/Stovyn-v1.0.34.apk",
+  "sha256": "cbaaba5b425de4a7558cc436f627dee9b50b2d6bb5b64ca5733008a87f034dc3",
   "mandatory": false,
-  "notes": "Push reliability: enables the device state-change push path on Android (was disabled by a stale Firebase flag), so widget/state updates and cloud notifications register consistently."
+  "notes": "Adds a clear Home-screen warning when your Stovyn is overheating, with a prompt to move it away from direct heat (protects the battery). Bluetooth devices now recover from a bad-connection denylist on their own instead of needing an app restart."
 }
