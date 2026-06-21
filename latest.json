@@ -1,8 +1,8 @@
 {
-  "versionCode": 39,
-  "versionName": "1.0.39",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.39/Stovyn-v1.0.39.apk",
-  "sha256": "1fa89da95df7fe80b1fe385720ee5ddc9b6b5f4e42f03124f39aaadda0ae5f26",
+  "versionCode": 40,
+  "versionName": "1.0.40",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.40/Stovyn-v1.0.40.apk",
+  "sha256": "396447931aa5b3b937124c6cf9179cc6db1130a808073c51a4a3822be4e39378",
   "mandatory": false,
-  "notes": "Safety: a confirmed fire/overheat alarm can no longer be silenced by a hand-wave or muted by Quiet Hours — only by tapping 'I'm here' or the heat actually dropping. Hand-wave still dismisses the gentle cooking reminder."
+  "notes": "Faster fire alerts: the app now reacts to the device's alert signal the instant it changes (within ~0.1s) instead of waiting for the next status check — important on iPhone. Also ensures a real alarm always breaks out of demo mode immediately."
 }
