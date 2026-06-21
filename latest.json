@@ -1,8 +1,8 @@
 {
-  "versionCode": 38,
-  "versionName": "1.0.38",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.38/Stovyn-v1.0.38.apk",
-  "sha256": "9bfda32cd0604e9cbc5e6f76a122b3dd266c6bc1832383a8454739b3d42a862f",
+  "versionCode": 39,
+  "versionName": "1.0.39",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.39/Stovyn-v1.0.39.apk",
+  "sha256": "1fa89da95df7fe80b1fe385720ee5ddc9b6b5f4e42f03124f39aaadda0ae5f26",
   "mandatory": false,
-  "notes": "Fixes a rare case where a stove paired before sign-in could briefly disappear from the device list right after you log in. Internal release-tooling hardening."
+  "notes": "Safety: a confirmed fire/overheat alarm can no longer be silenced by a hand-wave or muted by Quiet Hours — only by tapping 'I'm here' or the heat actually dropping. Hand-wave still dismisses the gentle cooking reminder."
 }
