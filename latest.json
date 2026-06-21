@@ -1,8 +1,8 @@
 {
-  "versionCode": 40,
-  "versionName": "1.0.40",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.40/Stovyn-v1.0.40.apk",
-  "sha256": "396447931aa5b3b937124c6cf9179cc6db1130a808073c51a4a3822be4e39378",
+  "versionCode": 41,
+  "versionName": "1.0.41",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.41/Stovyn-v1.0.41.apk",
+  "sha256": "3be55206c4420185dffb2f383e2ca0add3aed9c89f44a99026c2930f191f0d0f",
   "mandatory": false,
-  "notes": "Faster fire alerts: the app now reacts to the device's alert signal the instant it changes (within ~0.1s) instead of waiting for the next status check — important on iPhone. Also ensures a real alarm always breaks out of demo mode immediately."
+  "notes": "Safety: if your stove is hot and the app loses contact with the device, the alarm can no longer go permanently silent after the 10-minute cap — it re-engages on its own until you acknowledge it or the device reports the heat has cleared."
 }
