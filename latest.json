@@ -1,8 +1,8 @@
 {
-  "versionCode": 44,
-  "versionName": "1.0.44",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.44/Stovyn-v1.0.44.apk",
-  "sha256": "9d97296961ef973ac46260e460b00a0aaef18e9dfc769f8d2317ca69bd9f8673",
+  "versionCode": 45,
+  "versionName": "1.0.45",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.45/Stovyn-v1.0.45.apk",
+  "sha256": "51fc03c83397b362d84427c8f0c6baae07c3aeb9e092968a198a092ab1a5b85d",
   "mandatory": false,
-  "notes": "Groundwork for a server-side alert backup that can reach your trusted contacts even if the app is closed (activates with an upcoming backend update). Your on-phone alerts are unchanged."
+  "notes": "Your stove now appears at its real location on the web dashboard map (the app shares the home location it captures for leave-home alerts). Plus an id fix so the coordinates reliably land."
 }
