@@ -1,8 +1,8 @@
 {
-  "versionCode": 37,
-  "versionName": "1.0.37",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.37/Stovyn-v1.0.37.apk",
-  "sha256": "4d9a0280215665e46449e0dd4f5f03d8028fc34ea4be45a5cf437235a13b9676",
+  "versionCode": 38,
+  "versionName": "1.0.38",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.38/Stovyn-v1.0.38.apk",
+  "sha256": "9bfda32cd0604e9cbc5e6f76a122b3dd266c6bc1832383a8454739b3d42a862f",
   "mandatory": false,
-  "notes": "Privacy: signing out now clears your stove list, so a different account on the same phone can't see your devices. Reliability: fixed a session-refresh bug that could silently stop push alerts after the app had been open a while."
+  "notes": "Fixes a rare case where a stove paired before sign-in could briefly disappear from the device list right after you log in. Internal release-tooling hardening."
 }
