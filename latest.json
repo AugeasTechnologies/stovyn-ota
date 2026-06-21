@@ -1,8 +1,8 @@
 {
-  "versionCode": 42,
-  "versionName": "1.0.42",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.42/Stovyn-v1.0.42.apk",
-  "sha256": "ae1b38d23158fa448b32c4f55b538185b9ee0682376ee1f4f42e3731c9343718",
+  "versionCode": 43,
+  "versionName": "1.0.43",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.43/Stovyn-v1.0.43.apk",
+  "sha256": "4b9230089af7694fdda36379fda276556e25bd68aaa8d9ace342ff3204254ff2",
   "mandatory": false,
-  "notes": "Includes device firmware s3-phase1-0.6.9: hardens the device's secure connections to the cloud (verified TLS on the fire-alert webhook + AI-vision paths) so they can't be tampered with on your network. The app pushes this firmware to your Stovyn automatically over Bluetooth."
+  "notes": "Security hardening: the device's Reboot-over-Bluetooth command now requires your paired token (blocks a nearby-attacker reboot loop), plus internal firmware robustness fixes (thermal rule coverage, OTA safety interlocks). Includes device firmware s3-phase1-0.6.10."
 }
