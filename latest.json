@@ -1,8 +1,8 @@
 {
-  "versionCode": 43,
-  "versionName": "1.0.43",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.43/Stovyn-v1.0.43.apk",
-  "sha256": "4b9230089af7694fdda36379fda276556e25bd68aaa8d9ace342ff3204254ff2",
+  "versionCode": 44,
+  "versionName": "1.0.44",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.44/Stovyn-v1.0.44.apk",
+  "sha256": "9d97296961ef973ac46260e460b00a0aaef18e9dfc769f8d2317ca69bd9f8673",
   "mandatory": false,
-  "notes": "Security hardening: the device's Reboot-over-Bluetooth command now requires your paired token (blocks a nearby-attacker reboot loop), plus internal firmware robustness fixes (thermal rule coverage, OTA safety interlocks). Includes device firmware s3-phase1-0.6.10."
+  "notes": "Groundwork for a server-side alert backup that can reach your trusted contacts even if the app is closed (activates with an upcoming backend update). Your on-phone alerts are unchanged."
 }
