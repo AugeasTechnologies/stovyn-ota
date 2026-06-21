@@ -1,8 +1,8 @@
 {
-  "versionCode": 41,
-  "versionName": "1.0.41",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.41/Stovyn-v1.0.41.apk",
-  "sha256": "3be55206c4420185dffb2f383e2ca0add3aed9c89f44a99026c2930f191f0d0f",
+  "versionCode": 42,
+  "versionName": "1.0.42",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.42/Stovyn-v1.0.42.apk",
+  "sha256": "ae1b38d23158fa448b32c4f55b538185b9ee0682376ee1f4f42e3731c9343718",
   "mandatory": false,
-  "notes": "Safety: if your stove is hot and the app loses contact with the device, the alarm can no longer go permanently silent after the 10-minute cap — it re-engages on its own until you acknowledge it or the device reports the heat has cleared."
+  "notes": "Includes device firmware s3-phase1-0.6.9: hardens the device's secure connections to the cloud (verified TLS on the fire-alert webhook + AI-vision paths) so they can't be tampered with on your network. The app pushes this firmware to your Stovyn automatically over Bluetooth."
 }
