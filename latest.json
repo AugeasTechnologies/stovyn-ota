@@ -1,8 +1,8 @@
 {
-  "versionCode": 47,
-  "versionName": "1.0.47",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.47/Stovyn-v1.0.47.apk",
-  "sha256": "ea00aaed79f63977cdf13ca80a67affea6873028d370c06e79f9d7b03102fcb8",
+  "versionCode": 48,
+  "versionName": "1.0.48",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.48/Stovyn-v1.0.48.apk",
+  "sha256": "1c0a05b7af5ed38abc90621b020397763bf2c76241eca170ff06e75078c971d0",
   "mandatory": false,
-  "notes": "Camera screen now shows the live burner overlay (temperatures + alerts) once your stove's burners are calibrated. Pop-ups now blur the background behind them for a cleaner, consistent look."
+  "notes": "Cooking started alerts: your Stovyn can now notify you the moment cooking is detected. Turn it on or off under Notifications -> Cooking Started; it stays quiet during Quiet Hours like other non-critical alerts."
 }
