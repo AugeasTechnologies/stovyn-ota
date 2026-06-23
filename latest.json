@@ -1,8 +1,8 @@
 {
-  "versionCode": 46,
-  "versionName": "1.0.46",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.46/Stovyn-v1.0.46.apk",
-  "sha256": "2d44471d9fbfc109f2dbf2fff273fd7cbd2e9579f45110887aa274cc9019ad2f",
+  "versionCode": 47,
+  "versionName": "1.0.47",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.47/Stovyn-v1.0.47.apk",
+  "sha256": "ea00aaed79f63977cdf13ca80a67affea6873028d370c06e79f9d7b03102fcb8",
   "mandatory": false,
-  "notes": "Privacy: the camera/snapshot sections in Privacy & Data now appear only for Pro (camera-equipped) accounts — Standard owners no longer see camera copy for hardware they don't have. Detected from real device firmware capability."
+  "notes": "Camera screen now shows the live burner overlay (temperatures + alerts) once your stove's burners are calibrated. Pop-ups now blur the background behind them for a cleaner, consistent look."
 }
