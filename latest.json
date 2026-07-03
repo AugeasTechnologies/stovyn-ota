@@ -1,8 +1,8 @@
 {
-  "versionCode": 48,
-  "versionName": "1.0.48",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.48/Stovyn-v1.0.48.apk",
-  "sha256": "1c0a05b7af5ed38abc90621b020397763bf2c76241eca170ff06e75078c971d0",
+  "versionCode": 49,
+  "versionName": "1.0.49",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.49/Stovyn-v1.0.49.apk",
+  "sha256": "86111546f355e9e1bb7132fc96713925b559d261cbac5bb5640b163e4f7bf926",
   "mandatory": false,
-  "notes": "Cooking started alerts: your Stovyn can now notify you the moment cooking is detected. Turn it on or off under Notifications -> Cooking Started; it stays quiet during Quiet Hours like other non-critical alerts."
+  "notes": "Safety and reliability update. Camera-detected flames and device-confirmed fire or overheat events now sound the full alarm and alert your trusted contacts, the same as sustained-overheat alerts. This update also restores Bluetooth alerting quickly after the stove briefly goes out of range, prevents false 'you left home' alerts caused by a weak GPS fix, and improves behavior on shared phones and homes with more than one Stovyn."
 }
