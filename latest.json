@@ -1,8 +1,8 @@
 {
-  "versionCode": 50,
-  "versionName": "1.0.50",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.50/Stovyn-v1.0.50.apk",
-  "sha256": "ccb3c356a73b32a8c987487d5da305543b842a27dc54d9f44aeb3e45195fa99f",
+  "versionCode": 51,
+  "versionName": "1.0.51",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.51/Stovyn-v1.0.51.apk",
+  "sha256": "54f4be27dce5b7c1f46c82b1a7331bad7bf650cc05b2502dd06960ce336af321",
   "mandatory": false,
-  "notes": "Reliability and safety update. An explicit camera flame detection now always sounds the alarm and alerts your trusted contacts, even at low confidence, and a flame the vision service labels differently is no longer missed. Adds a local-only privacy mode for data-residency regions, per-country emergency numbers on the emergency screen, and larger, clearer alert controls. Also fixes cross-device sync of your region and quiet hours, stops a signed-out shared phone from receiving a previous account's alerts, and improves overall stability."
+  "notes": "Battery: fixed a background wake-lock drain in the Bluetooth keep-alive service and paused invisible sensor/timer refreshes while the app is backgrounded. Connectivity: more accurate Wi-Fi/Bluetooth/cloud fallback status so the alert card no longer shows offline while you are away from home."
 }
