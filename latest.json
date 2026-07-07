@@ -1,8 +1,8 @@
 {
-  "versionCode": 51,
-  "versionName": "1.0.51",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.51/Stovyn-v1.0.51.apk",
-  "sha256": "54f4be27dce5b7c1f46c82b1a7331bad7bf650cc05b2502dd06960ce336af321",
+  "versionCode": 52,
+  "versionName": "1.0.52",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.52/Stovyn-v1.0.52.apk",
+  "sha256": "b5b833839035e1317a42cda24d8f3a6a5603c735f6b9be952739a328ddb16b35",
   "mandatory": false,
-  "notes": "Battery: fixed a background wake-lock drain in the Bluetooth keep-alive service and paused invisible sensor/timer refreshes while the app is backgrounded. Connectivity: more accurate Wi-Fi/Bluetooth/cloud fallback status so the alert card no longer shows offline while you are away from home."
+  "notes": "Battery: eliminated duplicate Bluetooth keep-alive read loops so a paired stove is polled once, not two-to-three times, cutting radio wake-ups. Connectivity: the app now ages out a stale Wi-Fi link instead of showing 'Connected via Wi-Fi' with an old reading after your phone wakes from sleep, and backs off polling a stove that has gone off-network to save battery."
 }
