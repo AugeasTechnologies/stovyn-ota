@@ -1,8 +1,8 @@
 {
-  "versionCode": 54,
-  "versionName": "1.0.54",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.54/Stovyn-v1.0.54.apk",
-  "sha256": "3efbe709fb283b358df50182c6c32bf8671f5f61bef1b61c453f7a2a9d9b1a1e",
+  "versionCode": 55,
+  "versionName": "1.0.55",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.55/Stovyn-v1.0.55.apk",
+  "sha256": "8bf55af2a82ecc30187896c39876b070cba10b92f69af21fe359bd25f3ddcb00",
   "mandatory": false,
-  "notes": "Cleanup: removes the leftover Bluetooth-keepalive notification/channel from the retired background service, so upgraded devices no longer show a stale 'Stovyn is watching' notice. (Follow-up to v1.0.53's Google Play background-service removal; alerts via push + on-device siren.)"
+  "notes": "Reliability + safety fixes: device now syncs to the web reliably; pairing recovers from a denied Bluetooth permission; Wi-Fi setup only ever configures your own Stovyn; honest quiet-hours + emergency response window; cross-account settings isolation; plus many alert-path and battery hardening fixes."
 }
