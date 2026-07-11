@@ -1,8 +1,8 @@
 {
-  "versionCode": 53,
-  "versionName": "1.0.53",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.53/Stovyn-v1.0.53.apk",
-  "sha256": "8f03e3513bfbb59d6910397748e6333f9167cc79d7a4b0cea12159a6d62c643d",
+  "versionCode": 54,
+  "versionName": "1.0.54",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.54/Stovyn-v1.0.54.apk",
+  "sha256": "3efbe709fb283b358df50182c6c32bf8671f5f61bef1b61c453f7a2a9d9b1a1e",
   "mandatory": false,
-  "notes": "Google Play compliance: removed the persistent background monitoring service. Stove alerts now arrive via push notifications (loud critical-alert channel) plus the on-device siren. Also includes device cloud-sync, pairing reliability, and battery/Bluetooth fixes."
+  "notes": "Cleanup: removes the leftover Bluetooth-keepalive notification/channel from the retired background service, so upgraded devices no longer show a stale 'Stovyn is watching' notice. (Follow-up to v1.0.53's Google Play background-service removal; alerts via push + on-device siren.)"
 }
