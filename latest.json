@@ -1,8 +1,8 @@
 {
-  "versionCode": 59,
-  "versionName": "1.0.59",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.59/Stovyn-v1.0.59.apk",
-  "sha256": "2c81188991252861b710b038115c81057b22971c780ba548cdd8c0c6debb4c17",
+  "versionCode": 60,
+  "versionName": "1.0.60",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.60/Stovyn-v1.0.60.apk",
+  "sha256": "6caefc7e61caf8ab4c7c90c518a3f6913042d6f50d7bc4b54cef297bebbf0f72",
   "mandatory": false,
-  "notes": "Fixes the Local Alarm toggle: it no longer bounces back to ON on Wi-Fi, correctly reflects the device's buzzer state, and only appears on Stovyns running firmware 0.6.15+. No change to alerting."
+  "notes": "Safety-critical fix: on Wi-Fi, the app now reliably receives your Stovyn's confirmed-fire alert (it was previously dropped on the local-network path). Also: a second stove's alarm can no longer be silenced by dismissing another stove's timer, the device-too-hot warning now shows at the highest tier, and cleaner behavior on device switch and sign-out."
 }
