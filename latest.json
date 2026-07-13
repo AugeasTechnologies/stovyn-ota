@@ -1,8 +1,8 @@
 {
-  "versionCode": 57,
-  "versionName": "1.0.57",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.57/Stovyn-v1.0.57.apk",
-  "sha256": "1de42e474ec6779f1fa0befc343c8c2d2a3699a84e96a1736bcc52a1a3cd36e2",
+  "versionCode": 58,
+  "versionName": "1.0.58",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.58/Stovyn-v1.0.58.apk",
+  "sha256": "a6844f1b0ffe33c639e4f2bc784fee022c25bbd869a9fa2b3a2bcf9ad8516ea2",
   "mandatory": false,
-  "notes": "Important security fix for two-factor authentication, plus reliability improvements."
+  "notes": "Local Alarm control: turn the device's on-site buzzer on or off from Settings. On an unattended-cooking alert the device beeps first, then notifies; switch it off for notification-only. Requires the latest Stovyn firmware (0.6.15)."
 }
