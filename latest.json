@@ -1,8 +1,8 @@
 {
-  "versionCode": 60,
-  "versionName": "1.0.60",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.60/Stovyn-v1.0.60.apk",
-  "sha256": "6caefc7e61caf8ab4c7c90c518a3f6913042d6f50d7bc4b54cef297bebbf0f72",
+  "versionCode": 61,
+  "versionName": "1.0.61",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.61/Stovyn-v1.0.61.apk",
+  "sha256": "a772ef536c0667f4972ab848b895c4507135cb3ea6e0024da643f2aad8f0aad6",
   "mandatory": false,
-  "notes": "Safety-critical fix: on Wi-Fi, the app now reliably receives your Stovyn's confirmed-fire alert (it was previously dropped on the local-network path). Also: a second stove's alarm can no longer be silenced by dismissing another stove's timer, the device-too-hot warning now shows at the highest tier, and cleaner behavior on device switch and sign-out."
+  "notes": "Fixes the home-screen widget so it can no longer show a reassuring 'Online' or 'Cooking' status during a detected flame or critical alert — an alert now always wins. Also restores the widget battery reading."
 }
