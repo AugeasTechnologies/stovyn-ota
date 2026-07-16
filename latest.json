@@ -1,8 +1,8 @@
 {
-  "versionCode": 61,
-  "versionName": "1.0.61",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.61/Stovyn-v1.0.61.apk",
-  "sha256": "a772ef536c0667f4972ab848b895c4507135cb3ea6e0024da643f2aad8f0aad6",
+  "versionCode": 62,
+  "versionName": "1.0.62",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.62/Stovyn-v1.0.62.apk",
+  "sha256": "cb55d20ac032a555c6c7eca51ffe2ee7804d3ae2593f1eba3951a55800213b38",
   "mandatory": false,
-  "notes": "Fixes the home-screen widget so it can no longer show a reassuring 'Online' or 'Cooking' status during a detected flame or critical alert — an alert now always wins. Also restores the widget battery reading."
+  "notes": "Layout fixes: the 'Turn off monitoring' confirm buttons are no longer hidden under the navigation bar; notification toggle labels no longer overlap the switch on longer text; device-screen tiles no longer clip their values; the export sheet and firmware-update card now clear the navigation bar and home indicator."
 }
