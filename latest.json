@@ -1,8 +1,8 @@
 {
-  "versionCode": 62,
-  "versionName": "1.0.62",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.62/Stovyn-v1.0.62.apk",
-  "sha256": "cb55d20ac032a555c6c7eca51ffe2ee7804d3ae2593f1eba3951a55800213b38",
+  "versionCode": 63,
+  "versionName": "1.0.63",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.63/Stovyn-v1.0.63.apk",
+  "sha256": "0e2d4fad8740a575d5682d1a33da62a022e26ba549a3553db29d5f4f15e4590d",
   "mandatory": false,
-  "notes": "Layout fixes: the 'Turn off monitoring' confirm buttons are no longer hidden under the navigation bar; notification toggle labels no longer overlap the switch on longer text; device-screen tiles no longer clip their values; the export sheet and firmware-update card now clear the navigation bar and home indicator."
+  "notes": "Multi-unit safety: the app now confirms each Stovyn's identity before showing its readings, so with more than one unit nearby it never shows the wrong stove's status (with a clear message when a different unit is on the air). Also, the add-device Cloud Base field no longer shows a raw backend URL."
 }
