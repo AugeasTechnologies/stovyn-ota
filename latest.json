@@ -1,8 +1,8 @@
 {
-  "versionCode": 63,
-  "versionName": "1.0.63",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.63/Stovyn-v1.0.63.apk",
-  "sha256": "0e2d4fad8740a575d5682d1a33da62a022e26ba549a3553db29d5f4f15e4590d",
+  "versionCode": 64,
+  "versionName": "1.0.64",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.64/Stovyn-v1.0.64.apk",
+  "sha256": "457c7a3e755939d9d26731d88a6a4d31a40b5f0e9b6e4d7196768234f1d98b48",
   "mandatory": false,
-  "notes": "Multi-unit safety: the app now confirms each Stovyn's identity before showing its readings, so with more than one unit nearby it never shows the wrong stove's status (with a clear message when a different unit is on the air). Also, the add-device Cloud Base field no longer shows a raw backend URL."
+  "notes": "Fixes for multi-unit setups: adding a second Stovyn over Bluetooth now reliably registers it in your device switcher, and when a different unit is the only one nearby the dashboard shows 'reconnecting' for your selected unit instead of a misleading 'Online'. Builds on the 1.0.63 identity protection."
 }
