@@ -1,8 +1,8 @@
 {
-  "versionCode": 64,
-  "versionName": "1.0.64",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.64/Stovyn-v1.0.64.apk",
-  "sha256": "457c7a3e755939d9d26731d88a6a4d31a40b5f0e9b6e4d7196768234f1d98b48",
+  "versionCode": 65,
+  "versionName": "1.0.65",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.65/Stovyn-v1.0.65.apk",
+  "sha256": "4322dd983d8dd04b424c48944c812e0cda764c3f698db62ddaeacb4b3a6a9a46",
   "mandatory": false,
-  "notes": "Fixes for multi-unit setups: adding a second Stovyn over Bluetooth now reliably registers it in your device switcher, and when a different unit is the only one nearby the dashboard shows 'reconnecting' for your selected unit instead of a misleading 'Online'. Builds on the 1.0.63 identity protection."
+  "notes": "Adds the hood-fan ventilation reminder, improves multi-unit accuracy so you always see the right Stovyn, and includes reliability and safety fixes for alerts, device removal, and dashboard sync."
 }
