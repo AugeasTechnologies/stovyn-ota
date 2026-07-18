@@ -1,8 +1,8 @@
 {
-  "versionCode": 65,
-  "versionName": "1.0.65",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.65/Stovyn-v1.0.65.apk",
-  "sha256": "4322dd983d8dd04b424c48944c812e0cda764c3f698db62ddaeacb4b3a6a9a46",
+  "versionCode": 66,
+  "versionName": "1.0.66",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.66/Stovyn-v1.0.66.apk",
+  "sha256": "39cae4bc826173a360871654c5f38cc64d2a412c0394c1289cec0a66fdf8134e",
   "mandatory": false,
-  "notes": "Adds the hood-fan ventilation reminder, improves multi-unit accuracy so you always see the right Stovyn, and includes reliability and safety fixes for alerts, device removal, and dashboard sync."
+  "notes": "Safety fixes: the home-screen widget now shows an active alert during a fire instead of 'Cooking detected'; acknowledging one alert no longer quiets another stove's siren; and removing a device now fully clears its Bluetooth pairing."
 }
