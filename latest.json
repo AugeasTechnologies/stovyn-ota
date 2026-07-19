@@ -1,8 +1,8 @@
 {
-  "versionCode": 66,
-  "versionName": "1.0.66",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.66/Stovyn-v1.0.66.apk",
-  "sha256": "39cae4bc826173a360871654c5f38cc64d2a412c0394c1289cec0a66fdf8134e",
+  "versionCode": 67,
+  "versionName": "1.0.67",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.67/Stovyn-v1.0.67.apk",
+  "sha256": "452457ba24fec7e3ed36e6557b76cc37556056ec91ae194004daba0e5fc24570",
   "mandatory": false,
-  "notes": "Safety fixes: the home-screen widget now shows an active alert during a fire instead of 'Cooking detected'; acknowledging one alert no longer quiets another stove's siren; and removing a device now fully clears its Bluetooth pairing."
+  "notes": "Critical fire-alert reliability fix: a firmware-confirmed fire could be suppressed when the camera also reported a low-confidence flame in the same frame — it now always alerts. Also clears your profile details on sign-out so they don't appear to the next person on a shared phone."
 }
