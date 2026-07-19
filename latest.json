@@ -1,8 +1,8 @@
 {
-  "versionCode": 71,
-  "versionName": "1.0.71",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.71/Stovyn-v1.0.71.apk",
-  "sha256": "c03991afe1b44bc41171c08a879fc7f04a06b04dfdbcd7052c41dbba24b97c9c",
+  "versionCode": 72,
+  "versionName": "1.0.72",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.72/Stovyn-v1.0.72.apk",
+  "sha256": "c139ec5db4253561e0453cd1c935fc30223b2ae9ee18b8acb04cf1acc8a220bb",
   "mandatory": false,
-  "notes": "Safety fixes: a stove whose thermal sensor fails now clearly says it cannot watch the stove (instead of implying the camera covers it); switching accounts on a shared phone no longer carries over the previous person's emergency number or contacts; plus a device firmware update (s3-phase1-0.6.14)."
+  "notes": "Safety fixes: a stove whose thermal sensor fails now reliably alerts you (push, on-device chime, and status light), not just a banner in the app; background fire alerts keep working after switching accounts; plus a device firmware update (s3-phase1-0.6.15)."
 }
