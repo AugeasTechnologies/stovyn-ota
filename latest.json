@@ -1,8 +1,8 @@
 {
-  "versionCode": 74,
-  "versionName": "1.0.74",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.74/Stovyn-v1.0.74.apk",
-  "sha256": "6bffb1e0cad388e3f97b99de516e7ebaa7941606e6969299fd13e5cee36a3fef",
+  "versionCode": 75,
+  "versionName": "1.0.75",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.75/Stovyn-v1.0.75.apk",
+  "sha256": "d020aaa93aa1cf2127539bf62d55a4d1551ff017b95594cf024165fc377309fc",
   "mandatory": false,
-  "notes": "Safety fix: a firmware update can never reboot your Stovyn while it is in an active fire alert (device firmware s3-phase1-0.6.17)."
+  "notes": "This update makes fire alerts more reliable: an alert can no longer be suppressed when your phone storage is full, and a critical alarm can no longer be snoozed by mistake. Includes a device firmware update (0.6.18) that Stovyn will offer to install over Bluetooth."
 }
