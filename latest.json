@@ -1,8 +1,8 @@
 {
-  "versionCode": 68,
-  "versionName": "1.0.68",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.68/Stovyn-v1.0.68.apk",
-  "sha256": "6166d64c6141a797143610060651fc3792d19fa6a0840e93b1ab25ab9d2434c6",
+  "versionCode": 69,
+  "versionName": "1.0.69",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.69/Stovyn-v1.0.69.apk",
+  "sha256": "e8058661346b189790bca576ab888f0b2ddf47573bd7ecba5b82c30be48c726d",
   "mandatory": false,
-  "notes": "Reliability and safety fixes: turning off Emergency Services now fully stops trusted-contact texts, including the durable server backstop, so a contact is never messaged after you disable it."
+  "notes": "Includes device firmware s3-phase1-0.6.12 (round-5 fixes: sub-80C fire brownout-recovery, live alert-bit hold, OTA state-lock). Emergency Services OFF now fully stops trusted-contact texts."
 }
