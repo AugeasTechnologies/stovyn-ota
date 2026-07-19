@@ -1,8 +1,8 @@
 {
-  "versionCode": 67,
-  "versionName": "1.0.67",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.67/Stovyn-v1.0.67.apk",
-  "sha256": "452457ba24fec7e3ed36e6557b76cc37556056ec91ae194004daba0e5fc24570",
+  "versionCode": 68,
+  "versionName": "1.0.68",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.68/Stovyn-v1.0.68.apk",
+  "sha256": "6166d64c6141a797143610060651fc3792d19fa6a0840e93b1ab25ab9d2434c6",
   "mandatory": false,
-  "notes": "Critical fire-alert reliability fix: a firmware-confirmed fire could be suppressed when the camera also reported a low-confidence flame in the same frame — it now always alerts. Also clears your profile details on sign-out so they don't appear to the next person on a shared phone."
+  "notes": "Reliability and safety fixes: turning off Emergency Services now fully stops trusted-contact texts, including the durable server backstop, so a contact is never messaged after you disable it."
 }
