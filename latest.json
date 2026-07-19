@@ -1,8 +1,8 @@
 {
-  "versionCode": 69,
-  "versionName": "1.0.69",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.69/Stovyn-v1.0.69.apk",
-  "sha256": "e8058661346b189790bca576ab888f0b2ddf47573bd7ecba5b82c30be48c726d",
+  "versionCode": 70,
+  "versionName": "1.0.70",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.70/Stovyn-v1.0.70.apk",
+  "sha256": "b630fc353b0ad471cd237179b117faebb101f83a7fc4f7e9a18914c7321fe6ef",
   "mandatory": false,
-  "notes": "Includes device firmware s3-phase1-0.6.12 (round-5 fixes: sub-80C fire brownout-recovery, live alert-bit hold, OTA state-lock). Emergency Services OFF now fully stops trusted-contact texts."
+  "notes": "Safety and reliability fixes: a live fire siren can no longer be silenced by dismissing an unrelated alert; firmware updates are held during an active alert; plus a firmware update (device fw s3-phase1-0.6.13) that self-heals a rare stale-alert edge case."
 }
