@@ -1,8 +1,8 @@
 {
-  "versionCode": 73,
-  "versionName": "1.0.73",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.73/Stovyn-v1.0.73.apk",
-  "sha256": "e8fc99e7c4a11b9e7ee9be29eecfa3d8386d80b6270c742bcc2cbda1c4052807",
+  "versionCode": 74,
+  "versionName": "1.0.74",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.74/Stovyn-v1.0.74.apk",
+  "sha256": "6bffb1e0cad388e3f97b99de516e7ebaa7941606e6969299fd13e5cee36a3fef",
   "mandatory": false,
-  "notes": "Safety fixes: a confirmed-fire siren can no longer be silenced by dismissing an unrelated alert even if you turn off Emergency Services; fire-alert notifications stay tied to your verified account; plus a device firmware update (s3-phase1-0.6.16)."
+  "notes": "Safety fix: a firmware update can never reboot your Stovyn while it is in an active fire alert (device firmware s3-phase1-0.6.17)."
 }
