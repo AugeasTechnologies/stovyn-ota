@@ -1,8 +1,8 @@
 {
-  "versionCode": 77,
-  "versionName": "1.0.77",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.77/Stovyn-v1.0.77.apk",
-  "sha256": "376edcf310875472fe3dd7d273d2816502b6c950b50a1e2eacfd91cc3c11b75e",
+  "versionCode": 78,
+  "versionName": "1.0.78",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.78/Stovyn-v1.0.78.apk",
+  "sha256": "e812196471625f705731e845bbaa15f9eeeeaaed6a1b3f26568f8b54b52ff7d7",
   "mandatory": false,
-  "notes": "Reliability and safety fixes: cloud alerts keep working after your phone rotates its push token, Stovyn only ever connects to YOUR unit over Bluetooth, and you'll now be warned if the camera can't see. Includes device firmware s3-phase1-0.6.19."
+  "notes": "Safety fix: if Android ever rejects an alert channel, Stovyn now posts the alert on the default channel instead of it being silently dropped. Also fixes a stuck 'Signing in' screen when a Google or Apple sign-in is cancelled. Includes device firmware s3-phase1-0.6.19."
 }
