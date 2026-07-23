@@ -1,8 +1,8 @@
 {
-  "versionCode": 76,
-  "versionName": "1.0.76",
-  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.76/Stovyn-v1.0.76.apk",
-  "sha256": "524620beb73e8b2cf970ec8c70bdf87a415ddc648c3faa85dce95845294c6b56",
+  "versionCode": 77,
+  "versionName": "1.0.77",
+  "apkUrl": "https://github.com/AugeasTechnologies/stovyn-ota/releases/download/v1.0.77/Stovyn-v1.0.77.apk",
+  "sha256": "376edcf310875472fe3dd7d273d2816502b6c950b50a1e2eacfd91cc3c11b75e",
   "mandatory": false,
-  "notes": "Security fix for the home-screen widget: its quick actions (Snooze, I'm here, Reset whistles) can now only be triggered by Stovyn itself, not by other apps on your phone. Also improves Wi-Fi setup. Includes device firmware s3-phase1-0.6.18."
+  "notes": "Reliability and safety fixes: cloud alerts keep working after your phone rotates its push token, Stovyn only ever connects to YOUR unit over Bluetooth, and you'll now be warned if the camera can't see. Includes device firmware s3-phase1-0.6.19."
 }
